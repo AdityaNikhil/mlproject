@@ -1,6 +1,7 @@
 from setuptools import find_packages, setup
 from typing import List
 
+# The purspose of this is that it connects the requirements to the setup.py script to run it.
 HYPEN_E_DOT = '-e .'
 def get_requirements(file_path:str)->List[str]:
     '''
